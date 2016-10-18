@@ -1,0 +1,47 @@
+.icon-sprite, .icon-camera, .icon-cloud, .icon-empire {
+  background-image: url('../img/icon-s506f7f6077.png');
+  background-repeat: no-repeat;
+}
+
+.icon-camera {
+  background-position: 0 -100px;
+}
+.icon-camera:hover, .icon-camera.camera-hover {
+  background-position: 0 0;
+}
+
+.icon-cloud {
+  background-position: 0 -300px;
+}
+.icon-cloud:hover, .icon-cloud.cloud-hover {
+  background-position: 0 -200px;
+}
+
+.icon-empire {
+  background-position: 0 -500px;
+}
+.icon-empire:hover, .icon-empire.empire-hover {
+  background-position: 0 -400px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}

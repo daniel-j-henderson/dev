@@ -1,0 +1,89 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url(../fonts/Gotham/GothamLight.otf);
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url(../fonts/Gotham/GothamBold.otf);
+}
+
+@font-face {
+    font-family: "Gotham Ultra";
+    src: url(../fonts/Gotham/GothamUltra.otf);
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Gotham Ultra";
+  font-size: 44px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Gotham Bold";
+  position: absolute;
+  font-size: 48;
+  font-color: white;
+  color: white;
+  top: 40%;
+  min-width: 500px;
+  max-width: 800px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgba(0,0,0,.5);
+  visibility: hidden;
+}
+
+
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+ul {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.upper {
+  top: 15%;
+}
+.lower {
+  top: 65%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  // padding: 10px;
+  margin: 20px;
+
+  a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    span {
+      position: absolute;
+      top: -9999em;
+      left: -9999em;
+    }
+  }
+}

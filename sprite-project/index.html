@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Sprites</title>
+
+  <script>
+  function toggle(obj) {
+    var item = document.getElementById(obj);
+    if(item.style.visibility == 'visible') { item.style.visibility = 'hidden'; }
+    else { item.style.visibility = 'visible'; }
+}
+  </script>
+
+</head>
+<header>
+  <h1>SPRITES</h1>
+</header>
+<body>
+  <section>
+    <ul class="upper">
+      <li onmouseover="toggle('p1');" onmouseout="toggle('p1');"><a href="#" class="icon-jellyfish"><span>link1</span></a></li>
+      <li onmouseover="toggle('p2');" onmouseout="toggle('p2');"><a href="#" class="icon-bolt"><span>link2</span></a></li>
+      <li onmouseover="toggle('p3');" onmouseout="toggle('p3');"><a href="#" class="icon-carrot"><span>link3</span></a></li>
+      <li onmouseover="toggle('p4');" onmouseout="toggle('p4');"><a href="#" class="icon-column"><span>link3</span></a></li>
+      <li onmouseover="toggle('p5');" onmouseout="toggle('p5');"><a href="#" class="icon-halo"><span>link3</span></a></li>
+    </ul>
+    <p id="p1">Jellyfish sprites can be very large, up to 30 by 30 miles.</p>
+    <p id="p2">Sprites are super cool, large-scale electrical discharges that occur high above thunderstorm clouds, giving rise to a quite varied range of flickering shapes in the night sky.</p>
+    <p id="p3">There's a type called a carrot sprite - isn't that neat?</p>
+    <p id="p4">Column sprites are large scale electrical discharges above the earth that are still not totally understood.</p>
+    <p id="p5">Sprites are sometimes preceded, by about 1 millisecond, by a sprite halo, a pancake-shaped region of weak, transient optical emissions approximately 31 miles across and 6.2 miles thick.</p>
+    <p id="p6">Sprites exist in the mesosphere (50-90km altitude), anywhere from 4 to 10 times higher in altitude than commercial planes fly.</p>
+    <p id="p7">In 1989, a NASA weather balloon suffered an uncommanded payload release while flying at 120,000 feet over a thunderstorm in Texas. Months after the accident, an investigation concluded that a "bolt of lightning" traveling upward from the clouds provoked the incident. The attribution of the accident to a sprite was made retroactively, since this term was not coined until late 1993.</p>
+    <p id="p8">Optical imaging using a 10,000 frame-per-second high speed camera shows that sprites are actually clusters of balls of ionization that are launched at an altitude of about 80 km (50 mi) and then move downward at speeds of up to ten percent the speed of light. That's pretty fast.</p>
+    <p id="p9">In order to film sprites from Earth, special conditions must be present: 150–500 km (93–311 mi) of clear view to a powerful thunderstorm with positive lightning between cloud and ground, red-sensitive recording equipment, and a black unlit sky.</p>
+    <p id="p10">Sprites can be seen from the International Space Station, and there are lots of videos of them from space.</p>
+    <ul class="lower">
+      <li onmouseover="toggle('p6');" onmouseout="toggle('p6');"><a href="#" class="icon-plane"><span>link1</span></a></li>
+      <li onmouseover="toggle('p7');" onmouseout="toggle('p7');"><a href="#" class="icon-balloon"><span>link2</span></a></li>
+      <li onmouseover="toggle('p8');" onmouseout="toggle('p8');"><a href="#" class="icon-comet"><span>link3</span></a></li>
+      <li onmouseover="toggle('p9');" onmouseout="toggle('p9');"><a href="#" class="icon-camera"><span>link3</span></a></li>
+      <li onmouseover="toggle('p10');" onmouseout="toggle('p10');"><a href="#" class="icon-dstar"><span>link3</span></a></li>
+    </ul>
+  </section>
+</body>
+</html>
