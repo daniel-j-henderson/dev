@@ -447,32 +447,50 @@ template {
 }
 
 .icon-sprite, .icon-aviato, .icon-bash, .icon-exc, .icon-git, .icon-github {
-  background-image: url('../img/icon-sf837e07ab3.png');
+  background-image: url('../img/icon-sd3e7847382.png');
   background-repeat: no-repeat;
 }
 
 .icon-aviato {
+  background-position: 0 -300px;
+}
+.icon-aviato:hover, .icon-aviato.aviato-hover {
   background-position: 0 0;
 }
 
 .icon-bash {
-  background-position: 0 -300px;
+  background-position: 0 -900px;
 }
-
-.icon-exc {
+.icon-bash:hover, .icon-bash.bash-hover {
   background-position: 0 -600px;
 }
 
-.icon-git {
-  background-position: 0 -900px;
+.icon-exc {
+  background-position: 0 -1500px;
 }
-
-.icon-github {
+.icon-exc:hover, .icon-exc.exc-hover {
   background-position: 0 -1200px;
 }
 
+.icon-git {
+  background-position: 0 -2100px;
+}
+.icon-git:hover, .icon-git.git-hover {
+  background-position: 0 -1800px;
+}
+
+.icon-github {
+  background-position: 0 -2700px;
+}
+.icon-github:hover, .icon-github.github-hover {
+  background-position: 0 -2400px;
+}
+
 .icon-sprite {
-  background-position: 0 -1500px;
+  background-position: 0 -3300px;
+}
+.icon-sprite:hover {
+  background-position: 0 -3000px;
 }
 
 @font-face {
@@ -502,7 +520,7 @@ body {
   z-index: -1;
 }
 
-.a {
+.c {
   background: url("../img/bg3.jpg") center center fixed no-repeat;
 }
 
