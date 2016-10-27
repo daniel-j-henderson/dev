@@ -1,0 +1,98 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+@font-face {
+  font-family: "Gotham-Ultra";
+  src: url("../fonts/Gotham/GothamUltra.otf");
+}
+
+@font-face {
+  font-family: "Didot";
+  src: url("../fonts/Didot.ttc");
+}
+
+
+@font-face {
+  font-family: "Majesti-BoldItalic";
+  src: url("../fonts/Majesti/Majesti-Banner-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "MoristonBlack";
+  src: url("../fonts/Moriston/MoristonPersonal-Black.otf");
+}
+
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+
+  height: 100%;
+  margin: 0px;
+  z-index: -1;
+  // background: url("../img/bg3.jpg") center center fixed no-repeat;
+  // background-size: cver;
+}
+
+.a {
+  background: url("../img/bg3.jpg") center center fixed no-repeat;
+}
+
+.b {
+  background: url("../img/bg.jpg") center center fixed no-repeat;
+}
+
+section {
+  min-height: 100%;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  z-index: -1;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+article {
+  text-align: center;
+  a {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  p {
+    font-family: 'Majesti-BoldItalic';
+    font-size: 58px;
+    color: white;
+    // padding-top: 20px;
+    // display: inline-block;
+    // margin: 20px;
+    // height: 300px;
+    // width: 300px;
+  }
+}
+
+h2 {
+  font-family: "MoristonBlack";
+  font-size: 58px;
+  text-align: center;
+  position: relative;
+  // top: 0;
+  margin-top: 25px;
+  color: $display-text-blue;
+}
+
+h1 {
+  font-family: "MoristonBlack";
+  font-size: 72px;
+  text-align: center;
+  position: relative;
+  top: 0;
+  margin-top: 25%;
+  color: $display-text-tan;
+}
