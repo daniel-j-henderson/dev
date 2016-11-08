@@ -1,0 +1,23 @@
+body {
+background: yellow;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+main section {
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+  border: 1px black;
+}
+
+@media only screen and (max-width:550px) {
+  main {
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+  }
+}
