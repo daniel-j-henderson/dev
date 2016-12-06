@@ -46,12 +46,28 @@ body {
 
 .b {
   background-image: url("../img/bg.jpg");
+}
 
+.a {
+  background-image: url("../img/bg6.jpg");
+  h2 {
+    color: rgba(156, 60, 51, 0.93);
+  }
+  a {
+    height: auto;
+    margin-top: 150px;
+    color: white;
+    font-family: "Didot";
+    font-size: 36px;
+  }
+  a:hover {
+    color: rgba(156, 60, 51, 0.93);
+  }
 }
 
 section {
   min-height: 100%;
-
+  
   background-position: center center;
   z-index: -1;
   background-attachment: fixed;

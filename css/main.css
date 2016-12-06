@@ -446,8 +446,8 @@ template {
   display: none;
 }
 
-.icon-sprite, .icon-aviato, .icon-bash, .icon-exc, .icon-git, .icon-github {
-  background-image: url('../img/icon-sd3e7847382.png');
+.icon-sprite, .icon-aviato, .icon-bash, .icon-election, .icon-exc, .icon-git, .icon-github {
+  background-image: url('../img/icon-saf2704b69a.png');
   background-repeat: no-repeat;
 }
 
@@ -465,32 +465,39 @@ template {
   background-position: 0 -600px;
 }
 
-.icon-exc {
+.icon-election {
   background-position: 0 -1500px;
 }
-.icon-exc:hover, .icon-exc.exc-hover {
+.icon-election:hover, .icon-election.election-hover {
   background-position: 0 -1200px;
 }
 
-.icon-git {
+.icon-exc {
   background-position: 0 -2100px;
 }
-.icon-git:hover, .icon-git.git-hover {
+.icon-exc:hover, .icon-exc.exc-hover {
   background-position: 0 -1800px;
 }
 
-.icon-github {
+.icon-git {
   background-position: 0 -2700px;
 }
-.icon-github:hover, .icon-github.github-hover {
+.icon-git:hover, .icon-git.git-hover {
   background-position: 0 -2400px;
 }
 
-.icon-sprite, .icon-aviato, .icon-bash, .icon-exc, .icon-git, .icon-github {
+.icon-github {
   background-position: 0 -3300px;
 }
-.icon-sprite:hover, .icon-aviato:hover, .icon-bash:hover, .icon-exc:hover, .icon-git:hover, .icon-github:hover, .icon-sprite.sprite-hover, .sprite-hover.icon-aviato, .sprite-hover.icon-bash, .sprite-hover.icon-exc, .sprite-hover.icon-git, .sprite-hover.icon-github {
+.icon-github:hover, .icon-github.github-hover {
   background-position: 0 -3000px;
+}
+
+.icon-sprite {
+  background-position: 0 -3900px;
+}
+.icon-sprite:hover {
+  background-position: 0 -3600px;
 }
 
 @font-face {
@@ -530,6 +537,23 @@ body {
 
 .b {
   background-image: url("../img/bg.jpg");
+}
+
+.a {
+  background-image: url("../img/bg6.jpg");
+}
+.a h2 {
+  color: rgba(156, 60, 51, 0.93);
+}
+.a a {
+  height: auto;
+  margin-top: 150px;
+  color: white;
+  font-family: "Didot";
+  font-size: 36px;
+}
+.a a:hover {
+  color: rgba(156, 60, 51, 0.93);
 }
 
 section {
