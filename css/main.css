@@ -486,10 +486,10 @@ template {
   background-position: 0 -2400px;
 }
 
-.icon-sprite {
+.icon-sprite, .icon-aviato, .icon-bash, .icon-exc, .icon-git, .icon-github {
   background-position: 0 -3300px;
 }
-.icon-sprite:hover {
+.icon-sprite:hover, .icon-aviato:hover, .icon-bash:hover, .icon-exc:hover, .icon-git:hover, .icon-github:hover, .icon-sprite.sprite-hover, .sprite-hover.icon-aviato, .sprite-hover.icon-bash, .sprite-hover.icon-exc, .sprite-hover.icon-git, .sprite-hover.icon-github {
   background-position: 0 -3000px;
 }
 
@@ -521,18 +521,24 @@ body {
 }
 
 .c {
-  background: url("../img/bg3.jpg") center center fixed no-repeat;
+  background-image: url("../img/bg3.jpg");
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .b {
-  background: url("../img/bg.jpg") center center fixed no-repeat;
+  background-image: url("../img/bg.jpg");
 }
 
 section {
   min-height: 100%;
-  background-size: cover;
+  background-position: center center;
   z-index: -1;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -569,6 +575,5 @@ h1 {
   text-align: center;
   position: relative;
   top: 0;
-  margin-top: 25%;
   color: rgba(222, 208, 151, 0.94);
 }
